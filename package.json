@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "electron-start": "wait-on tcp:3000 && electron ."
+    "electron-start": "wait-on tcp:3000 && electron .",
+    "electron-build": "npm run build && node build.js"
   },
   "eslintConfig": {
     "extends": [
